@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up | Easy Programming </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" href="img/h1.png" type="image/png">
+</head>
+<style>
+    .myform{
+        margin-top: 3%;
+    }
+
+     body {
+  background-image: linear-gradient( 135.9deg,  rgb(186, 183, 187) 46.1% , rgb(241, 136, 201) 16.4% );
+}
+
+</style>
+<body>
+    {{>nav}}
+    <div class="container">
+         <h2 style="text-align:center; margin-top: 9%;"> Create An Account </h2>
+        <form name="myform" class="form-group myform" action="/sign-up" method="POST">        
+        <div class="row jumbotron">
+        <div class="col-md-4">
+            <label for="inputname">First Name:* </label>
+            <input type="text" class="form-control" placeholder="Enter Your First Name" name="firstname" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputname">Last Name:* </label>
+            <input type="text" class="form-control" placeholder="Enter Your Last Name" name="lastname" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputname">Mobile No.:* </label>
+            <input type="mobileno" class="form-control" placeholder="Enter Your Mobile No." name="mobile" required>
+        </div>
+        <div class="col-md-4">
+            <label for="email"style="margin-top: 2%;">Email-Id:* </label>
+            <input type="email" class="form-control" placeholder="Enter Your Email-Id" name="email" required>
+        </div>
+        <div class="col-sm-4">
+            <label for="inputname" style="margin-top: 2%;">User Id:* </label>
+            <input type="text" class="form-control" placeholder="Enter Your User Id" name="user" required>
+        </div>
+         <div class="col-sm-4">
+            <label for="password" style="margin-top: 2%;">Password:* </label>
+            <input type="password" class="form-control" placeholder="Enter Your Password" name="pass" required>
+        </div>
+        <div class="col-sm-4">
+            <label for="password" style="margin-top: 2%;"> Confirm-Password:* </label>
+            <input type="password" class="form-control" placeholder="Enter Your Confirm Password" name="cpass" required>
+        </div>
+        <!-- Submit Button-->
+        <div class="col-md-12" style="margin-top: 2%; ">
+        <button type="submit" class="btn btn-success" >Sign-up</button>  <br>
+        <a href="" style="color: #8f1d7c;" >Have You Already An Account !! Please Sign-In </a>
+        </div>
+        </div>
+        </div>
+         
+        </form>
+       
+    </div>
+    {{>foo}}
+</body>
+</html>

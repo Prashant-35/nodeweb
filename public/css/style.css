@@ -1,0 +1,44 @@
+h2{
+    margin-top: 15%;
+    color: blueviolet;
+}
+.p1{
+    color:hotpink;
+}
+p{
+    
+    text-align: center;
+    text-align:justify ;
+    margin-left: 1%;
+    color:darkgreen;
+   
+}
+body{
+    margin-top: 5px;
+}
+.hello{
+    color:dimgray;
+}
+.hey
+{
+    margin-top: 7%;
+    border-radius: 5px;
+}
+.bye{
+margin-top: 7%;
+text-align:left;
+color: red;
+margin-left: 7%;
+}
+.bye1{
+    margin-top: 1%;
+    text-align:left;
+    color: red;
+    margin-left: 7%;
+    }
+
+.info{
+ margin-top: -2%;
+}
+
+

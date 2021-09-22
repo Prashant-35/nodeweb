@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+  <title>About US | Easy Programming</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="img/h1.png" type="image/png">
+</head>
+
+<style>
+  .about {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+
+  }
+
+  body {
+    background-image: linear-gradient(135.9deg, rgb(186, 183, 187) 46.1%, rgba(109,25,252,1) 16.4%);
+  }
+
+  .backimg {
+    background-color: linear-gradient(135.9deg,rgba(109,25,252,1) 16.4%) , rgb(186, 183, 187) 46.1%,);
+    height: 350px;
+    padding-top: 50px;
+    color: black;
+    margin-top: 3%;
+  }
+</style>
+
+<body>
+  {{>nav}}
+  
+  <div class="backimg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <h1 style="text-align: center; margin-left:15%;">About Us</h1>
+          <h1 style="text-align: center; font-size: 30px; margin-left:15%;">
+            Welcome To Easy Programming Era !! </h1><br>
+          <p style="font-family: 'Times New Roman', Times, serif; font-size:20px;">
+            Easy Programming is a Online Programming Tutuorial . Where You will Learn Latest Programming Languages<br>
+            We also Provide the Mentor on Live Classes For Weak Student.We have Industry Experience.
+            Easy Programming Community provides a platform for effective training and development of students which
+            enhances their
+            employability in top-rated companies like Infosys, Wipro, HCL, Capgemini, Dabur, Asian Paints, Parle
+            group and many more.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="about">
+
+    <p>
+    <h4> Why EPE?</h4>
+
+    1.We Serves One of the best offering courses.<br>
+    2.We Povide Personality Development Classes With Industry Expert.<br>
+    3.We Organised Weekly Test For the Student.<br>
+    4.We Organised Workshop related to IIT AND NIT. <br>
+    5.We Also Serves Free of Cost Cources For Fee Waiver.<br>
+    6.We Provide 3C-Benefit To Student. ie.Certificate of Course , Certificate of Project, Certificate of Experience.
+    </p>
+  </div>
+
+{{>foo}}
+</body>
+
+</html>
